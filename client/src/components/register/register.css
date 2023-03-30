@@ -1,0 +1,126 @@
+.register-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+   
+}
+
+.register-card{
+    display: flex;
+    width:55%;
+    color: white;
+    
+}
+
+.register-left{
+  width: 50%;
+  padding: 0px 30px;
+  background-image: linear-gradient(rgba(11, 96, 63, 0.5),rgba(11, 96, 53, 0.5)),url("../../public//images//login-pic.webp");
+  background-position: center;
+  background-size:cover;
+
+}
+.register-left #register-hello{
+    font-size: 44px;
+    margin-top: 131px;
+    line-height: 125px;
+}
+.register-left #register-world{
+    font-size: 44px;
+   margin-top: -50px;
+
+}
+
+.register-left #register-p1{
+    /* margin-top: -25px; */
+    font-size: 18px;
+    line-height: 1.2;
+    
+}
+.register-left #register-p2{
+     
+        font-size: 18px;
+        line-height: 1.2;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.394);
+    
+}
+
+.register-left button{
+    padding: 7px 20px;
+    width: 60%;
+    background-color:white;
+    color: purple;
+    border: none;
+    margin-top: 14px;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.register-left button:hover{
+    transform: scaleY(0.9);
+    border-radius: 3px;
+    
+ }
+
+.register-right{
+    width: 50%;
+    background-color: #1bb80368;
+    padding: 25px 30px;
+ 
+}
+.register-right h1{
+    color: rgba(0, 0, 0, 0.694);
+}
+
+.register-right form{
+
+    display: flex;
+    flex-direction: column;
+}
+#register-form input{
+    padding: 6px;
+    border: none;
+    border-bottom: 2px solid #e4d3d3;
+    margin: 10px 0px;
+}
+
+
+#register-form button{
+    padding: 7px 20px;
+    width: 60%;
+    background-color: rgb(125 121 217);
+    color: white;
+    border: none;
+    margin-top: 14px;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+#register-form button:hover{
+   transform: scaleY(0.9);
+   border-radius: 3px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

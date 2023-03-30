@@ -1,0 +1,29 @@
+
+.filter-catagory{
+    width: 80%;
+}
+
+
+.filter-catagory p{
+    cursor: pointer;
+   
+}
+
+.filter-catagory p:hover{
+    background-color: #1cb803;
+    color: white;
+}
+
+
+.filter-company select{
+    width: 130px;
+}
+
+.company-options{
+  
+    font-size: 14px;
+}
+
+label {
+    display: block !important;
+}

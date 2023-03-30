@@ -1,0 +1,28 @@
+.pagination-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+   
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.pagination-container li{
+ background-color:#1cb803;
+  padding: 5px 14px;
+  color: white;
+}
+
+
+.active-li{
+  color: #ae1b1b!important;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #ae1b1b;
+  box-sizing: border-box;
+}
+
+
+
+

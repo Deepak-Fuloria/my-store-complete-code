@@ -1,0 +1,97 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.profile-left {
+  width: 30vw;
+  height: 320px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.author-card-cover {
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../public//images//background.jpg);
+}
+
+.author-card-profile {
+  padding: 20px 10px;
+  position: relative;
+  top: -75px;
+  height: 100px;
+}
+
+.author-card-avatar {
+  position: relative;
+  top: -50px;
+  /* z-index: 1; */
+  left: 20px;
+}
+
+.author-card-avatar img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 0 0 27px 0 rgb(0 0 0 / 38%);
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.tab-content {
+  width: 600px;
+  padding: 0px 30px;
+  margin-left: 30px;
+}
+
+.upadate-button {
+  width: 100%;
+  padding: 5px;
+}
+
+.author-card-details {
+  margin-top: -30px;
+  padding-left: 20px;
+}
+
+.author-card-details h5 {
+  margin-bottom: -1px;
+}
+
+.wizard {
+  margin: 20px auto;
+  background-color: #e5fee9;
+  color: #000;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 38%);
+  cursor: pointer;
+  text-align: center;
+}
+
+.inputfile {
+  display: none;
+}
+
+.profile-right {
+  width: 50vw;
+}

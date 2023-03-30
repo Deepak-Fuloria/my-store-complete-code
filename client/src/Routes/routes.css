@@ -1,0 +1,5 @@
+.footerfix {
+  background-color: red;
+  position: fixed;
+  bottom: 0vh;
+}
